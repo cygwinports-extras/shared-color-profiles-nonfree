@@ -1,0 +1,6 @@
+GIT_URI="git://github.com/hughsie/${PN}.git"
+#GIT_TAG=$(echo ${PN} | tr '[:lower:]-' '[:upper:]_')_${PV//./_}
+inherit git
+
+
+HOMEPAGE="https://github.com/hughsie/shared-color-profiles-nonfree/"
